@@ -12,7 +12,7 @@ recarga com base na energia disponível (geração − consumo).
 |---|---|
 | _Bryan_ | _rm571350_ |
 | _Beckman_ | _rm573442_ |
-| _Guilherme_ | _rm571350_ |
+| _Guilherme_ | _rm573053_ |
 
 ## Como funciona
 
