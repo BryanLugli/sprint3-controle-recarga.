@@ -10,9 +10,9 @@ recarga com base na energia disponível (geração − consumo).
 
 | Nome | RM |
 |---|---|
-| _(Bryan)_ | _(rm571350)_ |
-| _(Beckman)_ | _(rm573442)_ |
-| _(Guilherme)_ | _(rm571350)_ |
+| _Bryan_ | _rm571350_ |
+| _Beckman_ | _rm573442_ |
+| _Guilherme_ | _rm571350_ |
 
 ## Como funciona
 
