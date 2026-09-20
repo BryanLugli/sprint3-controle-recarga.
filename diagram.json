@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "author": "Beckman Rodrigues Lugli",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": -20.6,
+      "left": -6.51,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led_verde",
+      "top": -105.6,
+      "left": 176.8,
+      "attrs": { "color": "green", "label": "VERDE" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r_verde",
+      "top": -80,
+      "left": 172,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led_amarelo",
+      "top": -35.6,
+      "left": 176.8,
+      "attrs": { "color": "yellow", "label": "AMARELO" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r_amarelo",
+      "top": -10,
+      "left": 172,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led_vermelho",
+      "top": 34.4,
+      "left": 176.8,
+      "attrs": { "color": "red", "label": "VERMELHO" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r_vermelho",
+      "top": 60,
+      "left": 172,
+      "attrs": { "value": "220" }
+    }
+  ],
+  "connections": [
+    [ "pico:GP16", "led_verde:A", "green", [ "h0" ] ],
+    [ "led_verde:C", "r_verde:1", "black", [ "v0" ] ],
+    [ "r_verde:2", "pico:GND.1", "black", [ "v0" ] ],
+
+    [ "pico:GP17", "led_amarelo:A", "yellow", [ "h0" ] ],
+    [ "led_amarelo:C", "r_amarelo:1", "black", [ "v0" ] ],
+    [ "r_amarelo:2", "pico:GND.2", "black", [ "v0" ] ],
+
+    [ "pico:GP18", "led_vermelho:A", "red", [ "h0" ] ],
+    [ "led_vermelho:C", "r_vermelho:1", "black", [ "v0" ] ],
+    [ "r_vermelho:2", "pico:GND.3", "black", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
