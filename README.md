@@ -64,15 +64,7 @@ Hexadecimal:  9C4
    ~4 segundos, um para cada cenário do enunciado — use essa tela para
    gravar o vídeo de demonstração.
 
-## Como rodar em um Raspberry Pi Pico físico (opcional)
 
-1. Instale o firmware MicroPython no Pico (documentação oficial:
-   micropython.org/download/RPI_PICO).
-2. Ligue 3 LEDs aos pinos **GP16 (verde)**, **GP17 (amarelo)** e
-   **GP18 (vermelho)**, cada um em série com um resistor de 220–330 Ω
-   até o GND.
-3. Copie `main.py` para o Pico (via Thonny IDE, por exemplo) e execute.
-4. Acompanhe a saída pelo Monitor Serial do Thonny.
 
 ## Relação com Arquitetura de Computadores
 
