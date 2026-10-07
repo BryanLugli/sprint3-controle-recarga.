@@ -61,8 +61,7 @@ Hexadecimal:  9C4
 6. Abra o **Monitor Serial** (ícone de terminal na parte inferior) para
    ver os dados de cada sessão sendo impressos.
 7. Observe os LEDs alternando entre verde, amarelo e vermelho a cada
-   ~4 segundos, um para cada cenário do enunciado — use essa tela para
-   gravar o vídeo de demonstração.
+   ~4 segundos, um para cada cenário do enunciado 
 
 
 
