@@ -90,3 +90,7 @@ Hexadecimal:  9C4
 ├── diagram.json      # Circuito para simulação no Wokwi
 └── README.md          # Esta documentação
 ```
+
+##  Vídeo de demonstração
+
+▶️ Assista no YouTube: https://youtu.be/dPI8ADl2jVs
